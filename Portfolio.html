@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<nav>
+
+    <h1>Portfolio <span>folio</span> </h1>
+
+    <ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="">Services</a></li>
+    <li><a href="">Skills</a></li>
+    <li><a href="">Contact us</a></li>
+    </ul>
+
+    <button>
+    Subscribe
+    </button>
+
+</nav>
+<!-- ---------------------------------------------------------------- -->
+
+<div id="ss-col">
+
+<span>
+<h1>Hello, my name is <br>
+
+<span>Jay Kumar</span>
+    
+</h1>
+<p>I'm HTML & CSS Developer</p>
+<input type="text" placeholder="Enter your Email"> 
+<a href="Reusme.html"> <button>Download Resume</button> </a>
+</span>
+
+
+<img src="Image_ff/WhatsApp Image 2023-03-26 at 8.11.46 AM.jpeg" alt="">
+
+</div>
+
+<!-- -------------------------------------------------------------------------------------------------------- -->
+
+
+
+<div id="th-col">
+
+    <h1>About Me <br>
+    Developer & Designer
+    </h1>
+
+    <div id="skillks-cc">
+
+    <ul>
+    <h1>Skills</h1>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>CSS Animation</li>
+    <li>Responsive Webpage</li>
+    <li>Responsive Website & Application</li>
+    <li>Dashboard</li>
+    <li>Website Templates</li>
+    </ul>
+
+
+    </div>
+
+    <div id="th-colflex">
+
+    <div>
+    <h2>Web Development</h2>
+    <p>Every Website should be built with two <br>
+    primary goals. Firstly, it needs to work <br>
+    across all devices. Secondly, it needs to be fast as possible.
+    </p>
+    </div>
+
+    <div>
+    <h2>Responsive Website</h2>
+    <p>Every Website should be Responsive <br>
+    it needs to be fast <br>
+    as possible.
+    </p>
+    </div>
+
+    
+    <div>
+    <h2>Dashboard Website</h2>
+    <p>Dashboard Website In Huge demand to <br>
+    be built with primary goal. Firstly, <br>
+    Webpage needs to be  Responsive. <br> Secondly, it needs to be fast as possible.
+    </p>
+    </div>
+
+    </div>
+
+</div>
+
+
+
+<iframe src="Portfolioiframe.html" frameborder="0"></iframe>
+
+
+
+
+
+<style>
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+nav{
+    background-color: #202424;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px;
+    height: 104px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+
+nav ul{
+    display: inline-flex;
+    align-items: center;
+}
+
+nav ul li{
+    margin-right: 2em;
+    font-size: 1.9rem;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+nav ul li a:hover{
+    color: mediumspringgreen;
+}
+
+nav h1{
+    font-size: 3.7rem;
+    color: white;
+}
+
+nav span{
+    color: magenta;
+    font-size: 2.7rem;
+}
+
+nav button{
+    width: 177px;
+    height: 44px;
+    border-radius: 37px;
+    background-color: mediumspringgreen;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+nav button:hover{
+    background-color: slateblue;
+    color: white;
+}
+
+iframe{
+    height: 122vh;
+}
+
+#ss-col{
+    display: flex;
+    position: absolute;
+    left: 23%;
+    top : 13%;
+}
+
+#ss-col span{
+    margin-top: 77px;
+}
+
+#ss-col img{
+    width: 298px;
+    margin-top: 77px;
+    margin-left: 109px;
+    border-radius: 14px;
+    animation: 2s linear infinite img;
+}
+
+@keyframes img{
+    0%{
+        scale: 1.1;
+    }
+}
+
+#ss-col span h1{
+    color: white;
+    font-size: 3.3rem;
+    animation: 7s linear infinite chngbg-s;
+    font-style: italic;
+}
+
+@keyframes chngbg-s{
+    0%{
+        color: mediumslateblue;
+    }
+    25%{
+        color: mediumpurple;
+    }
+}
+
+#ss-col span p{
+    color: white;
+    font-size: 1.6rem;
+    margin: 27px 0px 29px 0px;
+}
+
+#ss-col input{
+    width: 397px;
+    height: 54px;
+    padding-left: 14px;
+    outline: none;
+    border-radius: 27px;
+}
+
+#ss-col button{
+    width: 139px;
+    height: 54px;
+    border: none;
+    margin-left: -49px;
+    color: white;
+    padding-left: 4px;
+    background-color: magenta;
+    cursor: pointer;
+    border-radius: 27px;
+}
+
+
+#ss-col button:hover{
+    background-color: aqua;
+    color: black;
+}
+
+#ss-col span h1{
+    color: magenta;
+    font-size: 4.9rem;
+}
+
+
+#ss-col span{
+    color: white;
+}
+
+#skillks-cc{
+    display: none;
+}
+
+#skillks-cc ul li{
+    list-style-type: none;
+    margin-top: 27px;
+    font-size: 1.4rem;
+}
+
+
+#th-col{
+    position: absolute;
+    left: 23%;
+    top: 75%;
+    color: white;
+}
+
+
+#th-col h1{
+    font-size: 2.7rem;
+}
+
+#th-colflex{
+    display: flex;
+    margin-top: 77px;
+    cursor: pointer;
+}
+
+
+#th-colflex h2{
+    margin-bottom: 27px;
+    color: mediumorchid;
+    font-size: 2.1rem;
+}
+
+
+
+#th-colflex div{
+    width: 277px;
+    padding: 27px;
+    border: 1px solid white;
+    margin-right: 3em;
+    border-radius: 4px;
+    transition: 1s;
+}
+
+
+#th-colflex div:hover{
+    scale: 1.1;
+}
+
+
+@media screen and (max-width :480px ){
+    
+    nav ul li{
+        display: none;
+    }
+
+    iframe{
+        display: none;
+    }
+
+    nav h1{
+        font-size: 2.2rem;
+    }
+
+    nav button{
+        width: 117px;
+        font-size: 0.9rem;
+        color: black;
+    }
+
+    #ss-col{
+        flex-direction: column;
+        position: absolute;
+        margin-left: -16vw;
+    }
+
+    #ss-col img{
+        margin-left: -1vw;
+        width: 87vw;
+    }
+
+    #ss-col span h1 {
+        font-size: 2.2rem;
+    }
+
+    #ss-col input{
+        width: 177px;
+        height: 47px;
+        margin-left: -8px;
+    }
+
+    #ss-col button{
+        width: 129px;
+        height: 46px;
+        padding-left: 4px;
+        margin-left: -37px;
+        font-size: 0.8rem;
+    }
+
+    
+   #skillks-cc{
+    display: block;
+    margin-top: 27px;
+    margin-left: 1vw;
+   }
+
+   #skillks-cc h1{
+    color: magenta;
+   }
+
+
+    #th-col{
+        flex-direction: column;
+        margin-top: 175%;
+        margin-left: -16vw;
+    }
+
+    
+    #th-col h1{
+        font-size: 2.4rem;
+        color: mediumspringgreen;
+    }
+
+    #th-colflex{
+        flex-direction: column;
+        margin-top: 27px;
+        margin-left: 1px;
+        scale: none;
+    }
+
+    
+    #th-colflex h2{
+        font-size: 1.7rem;
+    }
+    
+    #th-colflex div{
+        width: 89%;
+        margin-top: 17px;
+        border: 1px solid magenta;
+        margin-bottom: 17px;
+    }
+
+
+}
+
+
+
+</style>
+
+
+
+    
+</body>
+</html>
